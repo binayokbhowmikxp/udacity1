@@ -1,0 +1,22 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US West (N. California),,Amazon EC2,0,5890.32,70683.84,USD,"Operating system (Linux), Quantity (3), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage for each EC2 instance (Provisioned IOPS SSD (io1)), Storage amount (200 GB), Provisioning IOPS (200000), Instance type (r5a.4xlarge)"
+My Estimate,US West (N. California),Application Servers,Amazon EC2,0,5249.64,62995.68,USD,"Operating system (Linux), Quantity (3), Pricing strategy (On-Demand Instances  ), Storage for each EC2 instance (Provisioned IOPS SSD (io1)), Storage amount (300 GB), Provisioning IOPS (20000), Instance type (c6g.metal)"
+My Estimate,US West (N. California),RDS,Amazon RDS for PostgreSQL,0,3568.98,42827.76,USD,"Quantity (3), Pricing strategy (On-Demand Instances  ), Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB per month), Instance type (db.m5.4xlarge)"
+My Estimate,US West (N. California),NAT,Amazon Virtual Private Cloud (VPC),0,126.72,1520.64,USD,Number of NAT Gateways (3)
+My Estimate,US West (N. California),Load Balancer,Elastic Load Balancing,0,4745.58,56946.96,USD,Number of Application Load Balancers (4)
+My Estimate,US West (N. California),s3,S3 Standard,0,52.31,627.72,USD,S3 Standard storage (2000 GB per month)
+My Estimate,US West (N. California),s3,Data Transfer,0,0,0,USD,"DT Inbound: Internet (200 TB per month) 
+, DT Outbound: Amazon Cloud Front (200 TB per month) 
+"
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
+,,,,,,,,
+"To have high reduncy (also to faciliate blue green deployment) we have  provisioned a cut down infra in another vpc(which will have 2 LB 1 Web Server, 1 App server , 1 Nate gateway). We have also increased the instance type specs of webserver and application server. One extra RDS reader has been added to support more redundancies)",,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,

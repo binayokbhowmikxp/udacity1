@@ -1,15 +1,15 @@
 Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
-My Estimate,US West (N. California),webservers,Amazon EC2,0,3386.5899999999997,40639.08,USD,"Operating system (Linux), Quantity (2), Pricing strategy (On-Demand Instances  ), Storage for each EC2 instance (Provisioned IOPS SSD (io1)), Storage amount (200 GB), Provisioning IOPS (30000), Instance type (c6g.12xlarge)"
-My Estimate,US West (N. California),Application Servers,Amazon EC2,0,1435.6,17227.20,USD,"Operating system (Linux), Quantity (2), Pricing strategy (On-Demand Instances  ), Storage for each EC2 instance (Provisioned IOPS SSD (io1)), Storage amount (300 GB), Provisioning IOPS (30000), Instance type (c5.4xlarge)"
-My Estimate,US West (N. California),RDS,Amazon RDS for PostgreSQL,0,2387.6,28651.20,USD,"Quantity (2), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB per month), Instance type (db.m5.2xlarge)"
+My Estimate,US West (N. California),webservers,Amazon EC2,0,3386.59,40639.08,USD,"Operating system (Linux), Quantity (2), Pricing strategy (On-Demand Instances  ), Storage for each EC2 instance (Provisioned IOPS SSD (io1)), Storage amount (200 GB), Provisioning IOPS (30000), Instance type (c6g.12xlarge)"
+My Estimate,US West (N. California),Application Servers,Amazon EC2,0,1435.6,17227.2,USD,"Operating system (Linux), Quantity (2), Pricing strategy (On-Demand Instances  ), Storage for each EC2 instance (Provisioned IOPS SSD (io1)), Storage amount (300 GB), Provisioning IOPS (30000), Instance type (c5.4xlarge)"
+My Estimate,US West (N. California),RDS,Amazon RDS for PostgreSQL,0,2387.6,28651.2,USD,"Quantity (2), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB per month), Instance type (db.m5.2xlarge)"
 My Estimate,US West (N. California),,Amazon Virtual Private Cloud (VPC),0,84.19,1010.28,USD,Number of NAT Gateways (1)
 My Estimate,US West (N. California),Elastic Load Balancing,Elastic Load Balancing,0,1204.79,14457.48,USD,Number of Application Load Balancers (2)
 My Estimate,US West (N. California),,S3 Standard,0,53.58,642.96,USD,S3 Standard storage (2000 GB per month)
-My Estimate,US West (N. California),,Data Transfer,0,0,0.00,USD,"DT Inbound: Internet (100 TB per month) 
+My Estimate,US West (N. California),,Data Transfer,0,0,0,USD,"DT Inbound: Internet (100 TB per month) 
 , DT Outbound: Amazon Cloud Front (100 TB per month) 
 "
-
-
-
-Acknowledgement
-"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
